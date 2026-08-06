@@ -1,27 +1,3 @@
-/*
-    Vec3 (0,0,0)
-    Vec4 (0,0,0,0)
-    Mat4 { 
-          (0,0,0,0)
-          (0,0,0,0)
-          (0,0,0,0)
-          (0,0,0,0)    
-         }
-
-
-    vector operations
-        add
-        subtract
-        scale
-        dot
-        cross
-        mag
-        normalize
-
-    matrix operations
-        multiply
-
-*/
 #include <iostream>
 #include <cmath>
 #include "math3d.h"
@@ -51,9 +27,6 @@ int main()
     printVec4(Vec4(1,2,3,4) - Vec4(5,6,7,8));
     printVec4(Vec4(1,2,3,4) * Vec4(5,6,7,8));
     
-
-
-
     return 0;
 }
 
